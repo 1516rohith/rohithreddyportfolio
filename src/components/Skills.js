@@ -1,8 +1,9 @@
 import React from "react";
+import Layout from "./Layout";
 
 function Skills() {
   return (
-    <div>
+    <Layout>
       <section className="section3" id="skills">
         <div className="skills-container flex">
           <div className="flex">
@@ -60,7 +61,7 @@ function Skills() {
           </div>
         </div>
       </section>
-    </div>
+    </Layout>
   );
 }
 

@@ -1,8 +1,9 @@
 import React from "react";
+import Layout from "./Layout";
 
 function Contact() {
   return (
-    <div>
+    <Layout>
       <section className="section6 flex" id="contact">
         <h2 className="title">Get in Touch</h2>
         <div className="socials flex">
@@ -16,8 +17,8 @@ function Contact() {
 
         <div className="email-section flex">
           <div className="email flex">
-            <p>me@googl.com</p>
-            <a href="mailto:yoremail@gmail.com">
+            <p>youremail@gmail.com</p>
+            <a href="mailto:youremail@gmail.com">
               <div className="send">
                 <i className="fa-solid fa-envelope"></i>
               </div>
@@ -25,7 +26,7 @@ function Contact() {
           </div>
         </div>
       </section>
-    </div>
+    </Layout>
   );
 }
 
