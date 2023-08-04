@@ -10,7 +10,7 @@ function Hero() {
           <div className="hero grid">
             <div className="left flex">
               <div className="flex">
-                <div className="name">Hi, I am Kiran Gautam</div>
+                <div className="name">Hi, I am Rohith</div>
                 <div className="tag">Software Engineer</div>
                 <div className="sub-tag">I love coding and teach other ...</div>
                 <button>
